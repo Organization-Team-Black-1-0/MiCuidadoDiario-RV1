@@ -6,14 +6,14 @@ const route = (event) => {
 };
 
 const routes = {
-    "/": "/pages/home.html",
-    "/register": "/pages/register.html",
-    "/login": "/pages/login.html",
-    "/checkList": "/pages/checkList.html",
+    "/": "./pages/home.html",
+    "/register": "./pages/register.html",
+    "/login": "./pages/login.html",
+    "/checkList": "./pages/checkList.html",
     /*Inicio codigo adicionado para paginas de checklist y registro presion*/
-    "/checklist-estados-animo": "/pages/checklist-estados-animo.html",
-    "/checklist-higiene": "/pages/checklist-higiene.html",
-    "/registro-presion-arterial": "/pages/registro-presion-arterial.html",
+    "/checklist-estados-animo": "./pages/checklist-estados-animo.html",
+    "/checklist-higiene": "./pages/checklist-higiene.html",
+    "/registro-presion-arterial": "./pages/registro-presion-arterial.html",
     /*Fin codigo adicionado para paginas de checklist y registro presion*/
     404: "/pages/404.html"
 };
