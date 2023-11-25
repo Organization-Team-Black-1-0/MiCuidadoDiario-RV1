@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>checklist-estados-animo</title>
+    <link rel="stylesheet" href="/css/style-checklist-estados-animo.css">
+</head>
+
+<body>
+	<header class="header-check-list-ap">
+
+		<button class="close" onclick="window.close();">Salir</button>
+		<h2>Check-list aspectos psicológicos</h2>
+		<div class="container-check-list-ap">
+
+			<div>
+				<img src="/utilities/img/happiness.png" alt="Marca si esta bien" class="icon-check-list-ap">
+			</div>
+
+			<span class="grado">
+				<label>Nunca</label>
+			</span>
+			<span class="grado">
+				<label>Pocas veces</label>
+			</span>
+			<span class="grado">
+				<label>A veces</label>
+			</span>
+			<span class="grado">
+				<label>Muchas veces</label>
+			</span>
+			<span class="grado">
+				<label>Siempre</label>
+			</span>
+			<div>
+				<img src="/utilities/img/sad.png" alt="Marca esta mal" class="icon-check-list-ap">
+			</div>
+
+			<div>
+			</div>
+		</div>
+
+	</header>
+	<main>
+		<div class="vista-check-list-ap">
+			<form name="quizFormRadio" onsubmit="return verifycheckradio()">
+
+
+
+				<div class="container-check-list-ap">
+
+
+
+
+
+
+					<!-- row-1-->
+					<div></div>
+					<div>
+						<input name="checklist1" id="r1-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist1" id="r1-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist1" id="r1-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist1" id="r1-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist1" id="r1-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+					<div>
+						<a>¿Con qué frecuencia se ha sentido cansado, sin alguna razón?</a>
+					</div>
+
+					<!-- row-2-->
+					<div></div>
+					<div>
+						<input name="checklist2" id="r2-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist2" id="r2-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist2" id="r2-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist2" id="r2-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist2" id="r2-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>¿Con qué frecuencia se ha sentido nervioso?</a>
+					</div>
+
+
+					<!-- row-3-->
+					<div></div>
+					<div>
+						<input name="checklist3" id="r3-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist3" id="r3-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist3" id="r3-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist3" id="r3-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist3" id="r3-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>¿Con qué frecuencia se ha sentido tan nervioso que nada lo podía
+							calmar?</a>
+					</div>
+
+
+					<!-- row-4-->
+					<div></div>
+					<div>
+						<input name="checklist4" id="r4-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist4" id="r4-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist4" id="r4-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist4" id="r4-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist4" id="r4-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>¿Con qué frecuencia se ha sentido desesperado?</a>
+					</div>
+
+
+
+
+
+					<!-- row-5-->
+					<div></div>
+					<div>
+						<input name="checklist5" id="r5-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist5" id="r5-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist5" id="r5-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist5" id="r5-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist5" id="r5-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>¿Con qué frecuencia se ha sentido inquieto o intranquilo?</a>
+					</div>
+
+
+
+					<!-- row-6-->
+					<div></div>
+					<div>
+						<input name="checklist6" id="r6-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist6" id="r6-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist6" id="r6-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist6" id="r6-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist6" id="r6-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>
+							¿Con qué frecuencia se ha sentido tan impaciente que no se ha podido
+							mantener quieto?</a>
+					</div>
+
+
+
+
+					<!-- row-7-->
+					<div></div>
+					<div>
+						<input name="checklist7" id="r7-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist7" id="r7-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist7" id="r7-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist7" id="r7-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist7" id="r7-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+							¿Con qué frecuencia se ha sentido deprimido?</a>
+					</div>
+
+					<!-- row-8-->
+					<div></div>
+					<div>
+						<input name="checklist8" id="r8-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist8" id="r8-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist8" id="r8-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist8" id="r8-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist8" id="r8-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Con qué frecuencia ha sentido que todo lo que hace representa un
+							gran esfuerzo?</a>
+					</div>
+
+
+
+					<!-- row-9-->
+					<div></div>
+					<div>
+						<input name="checklist9" id="r9-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist9" id="r9-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist9" id="r9-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist9" id="r9-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist9" id="r9-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Con qué frecuencia se ha sentido tan triste que nada podía animarte?</a>
+					</div>
+
+					<!-- row-10-->
+					<div></div>
+					<div>
+						<input name="checklist10" id="r10-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist10" id="r10-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist10" id="r10-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist10" id="r10-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist10" id="r10-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Con qué frecuencia se ha sentido inútil?</a>
+					</div>
+
+
+					<!-- row-11-->
+					<div></div>
+					<div>
+						<input name="checklist11" id="r11-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist11" id="r11-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist11" id="r11-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist11" id="r11-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist11" id="r11-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Sabe qué día de la semana es hoy?</a>
+					</div>
+
+
+					<!-- row-12-->
+					<div></div>
+					<div>
+						<input name="checklist12" id="r12-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist12" id="r12-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist12" id="r12-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist12" id="r12-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist12" id="r12-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Sabe en donde se encuentra ubicado hoy?</a>
+					</div>
+
+
+					<!-- row-13-->
+					<div></div>
+					<div>
+						<input name="checklist13" id="r13-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist13" id="r13-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist13" id="r13-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist13" id="r13-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist13" id="r13-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Sabe cuál es la dirección de su casa?</a>
+					</div>
+
+
+
+					<!-- row-14-->
+					<div></div>
+					<div>
+						<input name="checklist14" id="r14-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist14" id="r14-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist14" id="r14-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist14" id="r14-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist14" id="r14-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Sabe cuál es su nombre?</a>
+					</div>
+
+					<!-- row-15-->
+					<div></div>
+					<div>
+						<input name="checklist15" id="r15-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist15" id="r15-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist15" id="r15-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist15" id="r15-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist15" id="r15-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+
+							¿Recuerda el nombre de su pareja?</a>
+					</div>
+
+
+					<!-- row-16-->
+					<div></div>
+					<div>
+						<input name="checklist16" id="r16-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist16" id="r16-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist16" id="r16-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist16" id="r16-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist16" id="r16-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+
+					<div>
+						<a>
+							¿Sabe cuántos hijos tiene y sus respectivos nombres?</a>
+					</div>
+
+					<!-- row-17-->
+					<div></div>
+					<div>
+						<input name="checklist17" id="r16-nunca" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist17" id="r16-pocasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist17" id="r16-aveces" type="radio" value=true checked="checked" />
+					</div>
+					<div>
+						<input name="checklist17" id="r16-muchasveces" type="radio" value=true />
+					</div>
+					<div>
+						<input name="checklist17" id="r16-siempre" type="radio" value=true />
+					</div>
+					<div></div>
+
+					<div>
+						<a>
+							¿Sabe cuántos nietos tiene y sus respectivos nombres?</a>
+					</div>
+
+
+
+
+				</div>
+				<button type="submit">Enviar</button>
+				<div id="resultado"></div>
+			</form>
+		</div>
+		<!--<script src="main.js"></script>-->
+	</main>
+
+	<body>
+
+</html>

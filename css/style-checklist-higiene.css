@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+  
+  }
+  
+  
+  .header-check-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*background-color: #fff;*/
+    padding: 1px;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+  
+    /* background-color: rgba(106, 141, 163, 0.7);*/
+    background-color: #546B7B;
+    flex-direction: column;
+    align-items: center;
+    max-height: max-content;
+    padding: 10px;
+    margin-top: 0px;
+  
+  }
+  
+  
+  
+  .vista-check-list{
+    height: 50vw;
+    max-width: 670px;
+  }
+  
+  .icon-check-list {
+    width: 30px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 35px 35px 500px;
+    grid-template-rows: repeat(5, 25px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
+  input[type="radio"] {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  
+  button {
+    border-radius: 55px;
+    background: #0b6efe;
+    border: none;
+    width: 9rem;
+    /*height: 3rem;
+    margin: 1rem;*/
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    border: outset;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

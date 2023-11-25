@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>registro-presion-arterial</title>
+    <link rel="stylesheet" href="/css/style-registro-presion-arterial.css">
+    
+</head>
+
+<body>
+	<figure>
+		<img src="/utilities/img/blood-pressure.png" alt="brazo con medidor presion arterial" id="blood-pressure">
+	</figure>
+
+
+    <button  class="close"  onclick="window.close();">Salir</button>
+	<div class="vista-check-list">
+		<div class="container">
+			<form name="inputFormPresion" onsubmit="return verifyinputFormPresion()">
+
+				<h1>Registro de presión arterial</h1>
+
+				<h2>Sistólica</h2>
+				<input type="number" id="registroPresionS" name="Presion arterial Sistolica" min="50" max="400"
+					placeholder="Escribe un número">
+				<small>mmHg</small>
+
+				<h2>Diastólica</h2>
+				<input type="number" id="registroPresionD" name="Presion arterial Diastolica" min="0" max="300"
+					placeholder="Escribe un número">
+				<small>mmHg</small>
+				<button type="submit">Enviar</button>
+				
+<div id="alertadeRegistroP1"></div>
+			
+			</form>
+<small>@joteso</small>
+
+		</div>
+	</div>
+
+	<!--<script src="main.js"></script>-->
+
+	<body>
+
+</html>

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;  
+      padding: 0;
+    color: white;
+  
+  }
+  
+  
+  header.header-check-list-ap label {
+    font-size: small;
+    writing-mode: vertical-lr;
+    transform: rotate(-115deg);
+  
+  
+  }
+  
+  
+  body header.header-check-list-ap {
+    
+    /*justify-content: center;*/
+    /*background-position: center;*/
+  
+   
+    background-color: #546B7B;
+    
+    
+  flex-direction: column;
+    /*align-items: center;*/
+    /*max-height: max-content;*/
+    /*padding: 10px;*/
+    /*margin-top: 0px;*/
+    position: fixed;
+    padding-bottom:5px;
+  
+  
+  }
+  
+  
+  body {
+    display: flex;
+    /*justify-content: center;*/
+    /*background-position: center;*/
+  
+   
+    background-color: #546B7B;
+    
+    
+    flex-direction: column;
+    /*align-items: center;*/
+    /*max-height: max-content;*/
+    /*padding: 10px;*/
+    /*margin-top: 0px;*/
+  
+  }
+  
+  div.container-check-list-ap {
+    display: grid;
+    grid-template-columns: 30px 45px 45px 45px 45px 45px 30px 500px;
+    grid-template-rows: repeat(1, 35px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    
+    }
+  
+    .vista-check-list-ap  	{padding-top: 60px;}
+    
+    .icon-check-list-ap {
+    width: 30px;
+  }
+  
+  button {
+    border-radius: 55px;
+    background: #0b6efe;
+    border: none;
+    width: 9rem;
+    /*height: 3rem;
+    margin: 1rem;*/
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    border: outset;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  margin-left: 87px;}
+  
+  
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #000;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    

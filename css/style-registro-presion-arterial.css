@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+
+/*.vista-check-list*/
+body {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+
+  /* background-color: rgba(106, 141, 163, 0.7);*/
+  background-color: #546B7B;
+  flex-direction: column;
+  align-items: center;
+  max-height: max-content;
+  padding: 10px;
+  margin-top: 0px;
+
+}
+
+
+img {
+  height: 150px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  color: #000;
+  font-weight: bolder;
+}
+
+/* Mensaje del envio de datos - Inicio*/
+#alertadeRegistroP1 {
+  /*background: grey;*/
+  padding: 10px;
+  margin: 10p;
+  width: 400px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+#alertadeRegistroP1 span {
+  color: #000;
+  font-weight: bold;
+}
+
+h5 {
+  color: #000;
+}
+
+/* Mensaje del envio de datos - Fin*/
+
+/*Boton enviar - Inicio -*/
+button:hover {
+  border: inset;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 55px;
+  background: #0b6efe;
+  border: none;
+  width: 9rem;
+  /*height: 3rem;
+  margin: 1rem;*/
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  border: outset;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*Boton enviar - Final -*/
+
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
