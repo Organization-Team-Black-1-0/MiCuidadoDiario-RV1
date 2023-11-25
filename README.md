@@ -97,3 +97,8 @@ administrador-mcd@proton.me
 
 El dia 11/11/2023 17:05 BOGOTA se crea el repositorio https://github.com/Organization-Team-Black-1-0/C-L-R-P-A.git en el cual se esta realizando la vista de registro de presion arterial.
 
+MICUIDADODIARIO-RV1 es la union el dia 24/11/2023 en Bogota de los siguientes  repositorios:
+https://github.com/Organization-Team-Black-1-0/C-L-R-P-A
+https://github.com/Organization-Team-Black-1-0/C-L-V4
+https://github.com/Organization-Team-Black-1-0/C-L-PSICO
+https://github.com/Organization-Team-Black-1-0/FrontEnd-MiCuidadoDiario
