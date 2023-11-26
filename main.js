@@ -6,8 +6,8 @@ const route = (event) => {
 };
 
 const routes = {
-    /* Antes en linea de abajo "/": "./pages/home.html",*/
-    "/home": "./pages/home.html",
+    "/": "./pages/home.html",
+   
     "/register": "./pages/register.html",
     "/login": "./pages/login.html",
     "/checkList": "./pages/checkList.html",
