@@ -12,7 +12,7 @@ module.exports = {
             filename: 'login.html',
         },
         register: {
-            entry: 'src/main.js',
+            entry: '/main.js',
             template: '/pages/register.html',
             filename: 'register.html',
         },
