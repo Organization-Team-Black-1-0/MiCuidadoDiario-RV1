@@ -7,7 +7,6 @@ const route = (event) => {
 
 const routes = {
     "/": "./pages/home.html",
-   
     "/register": "./pages/register.html",
     "/login": "./pages/login.html",
     "/checkList": "./pages/checkList.html",
